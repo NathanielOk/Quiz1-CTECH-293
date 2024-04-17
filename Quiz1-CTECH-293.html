@@ -6,6 +6,7 @@
 <title>Altera Store</title>
 </head>
 <body>
+<a href="https://nathanielok.github.io/Quiz1-CTECH-293/" target="_blank">Webpage</a>
   <h1>Altera</h1>
   <form action="process_order.php" method="post">
     <label for="name">Name:</label>
@@ -29,7 +30,7 @@
     <table>
       <thead>
         <tr>
-          <th>Item</th>
+          <th>Product</th>
           <th>Price</th>
           <th>Quantity</th>
         </tr>
@@ -68,3 +69,14 @@
 
     <label for="card-number">Credit Card Number:</label>
     <input type="text" id="card-number" name="card-number" required><br><br>
+
+    <label for="expiry-date">Expiration Date (MM/YY):</label>
+    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required><br><br>
+
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
